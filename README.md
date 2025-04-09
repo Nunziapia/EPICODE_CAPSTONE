@@ -43,7 +43,7 @@ Il progetto mira a utilizzare i report ufficiali provenienti da più [fonti](#ba
    - Raccolta e pulizia dei dati:
       1. Download dei dataset Istat, questi dati possono essere organizzati direttamente dal portale istat pertanto non richiedono un lavoro preliminare di pulizia e organizzazione. Il grosso del lavoro è stato reperire i dati dai report che di loro natura sono "discorsivi". Con l'utilizzo di strumenti AI ho acccelerato il processo di estrazione dei dati sotto forma di tabelle ricavando cosi il file "extra.doc"
       2. Ho convertito il file in .docx per poter estrarre con python le tabelle presenti nel file.
-      3. Per poter utilizzare python ho creato un ambiente virtuale col comando ~python -m venv venv~, per riproporlo sulla propria macchina seguire le istruzioni di seguito solo se disponete di un sistema operativo windows, su un sistema linux i comandi SONO DIVERSI.
+      3. Per poter utilizzare python ho creato un ambiente virtuale col comando ```python -m venv venv```, per riproporlo sulla propria macchina seguire le istruzioni di seguito solo se disponete di un sistema operativo windows, su un sistema linux i comandi SONO DIVERSI.
       Lanciare in ordine i comandi da terminale:
       ```python -m venv venv``` che crea l'ambiente virtuale
       ```venv\Scripts\activate``` che attiva l'ambiente virtuale sulla macchina
