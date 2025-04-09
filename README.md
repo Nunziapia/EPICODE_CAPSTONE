@@ -45,9 +45,9 @@ Il progetto mira a utilizzare i report ufficiali provenienti da più [fonti](#ba
       2. Ho convertito il file in .docx per poter estrarre con python le tabelle presenti nel file.
       3. Per poter utilizzare python ho creato un ambiente virtuale col comando ~python -m venv venv~, per riproporlo sulla propria macchina seguire le istruzioni di seguito solo se disponete di un sistema operativo windows, su un sistema linux i comandi SONO DIVERSI.
       Lanciare in ordine i comandi da terminale:
-      ~python -m venv venv~ che crea l'ambiente virtuale
-      ~venv\Scripts\activate~ che attiva l'ambiente virtuale sulla macchina
-      ~pip install -r requirements.txt~ che installerà tutte le librerie necessarie per l'esecuzione degli algoritmi
+      ```python -m venv venv``` che crea l'ambiente virtuale
+      ```venv\Scripts\activate``` che attiva l'ambiente virtuale sulla macchina
+      ```pip install -r requirements.txt``` che installerà tutte le librerie necessarie per l'esecuzione degli algoritmi
       4. Ai fini del progetto ho diviso l'elaborazione python in due file uno che contiene la logica generale "main.py" che ho utilizzato per pulire i dati ed individuare le correlazioni ed uno in cui sarà possibile vedere cosa ogni singola funzione richiamata nel file main faccia esattamente "funzioni.py"
       5. Ora disponiamo di 3 tabelle extra, verificate iniziamo la nostra indagine con python
       6. Con python è stata creata una funzione che permette di farsi un idea generale dei dati che abbiamo inserito nella cartella dati.
