@@ -45,11 +45,11 @@ Il progetto mira a utilizzare i report ufficiali provenienti da più [fonti](#ba
    - Raccolta e pulizia dei dati:
       1. Download dei dataset Istat, questi dati possono essere organizzati direttamente dal portale istat pertanto non richiedono un lavoro preliminare di pulizia e organizzazione. Il grosso del lavoro è stato reperire i dati dai report che di loro natura sono "discorsivi". Con l'utilizzo di strumenti AI ho acccelerato il processo di estrazione dei dati sotto forma di tabelle ricavando cosi il file "extra.doc"
       2. Ho convertito il file in .docx per poter estrarre con python le tabelle presenti nel file.
-      3. Per poter utilizzare python ho creato un ambiente virtuale col comando ~python -m venv venv~, per riproporlo sulla propria macchina seguire le istruzioni di seguito solo se disponete di un sistema operativo windows, su un sistema linux i comandi SONO DIVERSI.
+      3. Per poter utilizzare python ho creato un ambiente virtuale col comando `python -m venv venv`, per riproporlo sulla propria macchina seguire le istruzioni di seguito solo se disponete di un sistema operativo windows, su un sistema linux i comandi SONO DIVERSI.
       Lanciare in ordine i comandi da terminale:
-      ~python -m venv venv~ che crea l'ambiente virtuale
-      ~venv\Scripts\activate~ che attiva l'ambiente virtuale sulla macchina
-      ~pip install -r requirements.txt~ che installerà tutte le librerie necessarie per l'esecuzione degli algoritmi
+      `python -m venv venv` che crea l'ambiente virtuale
+      `venv\Scripts\activate` che attiva l'ambiente virtuale sulla macchina
+      `pip install -r requirements.txt` che installerà tutte le librerie necessarie per l'esecuzione degli algoritmi
       4. Ai fini del progetto ho diviso l'elaborazione python in due file uno che contiene la logica generale "main.py" che ho utilizzato per pulire i dati ed individuare le correlazioni ed uno in cui sarà possibile vedere cosa ogni singola funzione richiamata nel file main faccia esattamente "funzioni.py"
       5. Ora disponiamo di 3 tabelle extra, verificate iniziamo la nostra indagine con python
       6. Con python è stata creata una funzione che permette di farsi un idea generale dei dati che abbiamo inserito nella cartella dati.
@@ -69,7 +69,7 @@ Il progetto mira a utilizzare i report ufficiali provenienti da più [fonti](#ba
 - **Fonti Dati**:
 IN ORDINE DI AUTOREVOLEZZA
    - Dataset provenienti da [ISTAT](#https://www.istat.it/). L'Istituto nazionale di statistica (conosciuto anche come Istat) è un ente pubblico di ricerca italiano che si occupa dei censimenti generali della popolazione, dei servizi e dell'industria, dell'agricoltura, di indagini campionarie sulle famiglie e di indagini economiche generali a livello nazionale. L'operato dell'istituto è supervisionato dalla Commissione per la garanzia dell'informazione statistica della Presidenza del Consiglio dei ministri, che ha il compito di garantire l'imparzialità e la completezza dei dati raccolti e pubblicati. I contenuti pubblicati dall'Istat sono disponibili con licenza Creative Commons Attribuzione 3.0. L'Istat è un membro del Sistema statistico europeo.
-   - Rapporti [EURISPES](#). L'Eurispes (dal 1982 al 1993 chiamato Ispes) è un ente privato italiano che si occupa di studi politici, economici e sociali, ed operante nel campo della ricerca politica, economica, sociale e della formazione.- Rapporto FIPE 2023. 
+   - Rapporti [EURISPES](#https://eurispes.eu/). L'Eurispes (dal 1982 al 1993 chiamato Ispes) è un ente privato italiano che si occupa di studi politici, economici e sociali, ed operante nel campo della ricerca politica, economica, sociale e della formazione.- Rapporto FIPE 2023. 
    - Rapporto 2024 [FIPE](#https://www.fipe.it/wp-content/uploads/2024/04/Rapporto-Ristorazione-2024.pdf?utm_source=chatgpt.com). La Fipe, Federazione Italiana Pubblici Esercizi, è l'associazione leader nel settore della ristorazione, dell'intrattenimento e del turismo.
    - Dati provenienti da [STATISTA](#https://www.statista.com/). Statista è un sito web tedesco per la statistica, che rende disponibili dati raccolti da istituzioni che si occupano di ricerca, di mercato e di opinioni, così come statistiche riguardanti l'ambito economico e statale. L'azienda afferma che sulla sua piattaforma sono presenti statistiche riguardanti più di 80.000 temi e provenienti da più di 22.500 fonti.
    
