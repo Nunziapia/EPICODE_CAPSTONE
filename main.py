@@ -16,7 +16,7 @@ def main():
     Funzione principale del programma.
     """
     # estraiamo le tabelle dal file docx e le salviamo in file CSV
-    estrai_tabelle_docx(doc_path, dir)
+    # estrai_tabelle_docx(doc_path, dir)
     # adesso disponiamo di 3 tabelle extra!
     #andiamo a salvare le tabelle in un dizionario che chiamaimo dati
     dati = leggi_csv_da_cartella(dir)
@@ -45,6 +45,20 @@ def main():
         e salvate correttamente.
         """
         )
+    grafico_vegetariani_vegani(
+            os.path.join(dir, 'tb_Anno_Vegetariani_Vegani_Totale_Veg_Fonte.csv'),
+            output_path="grafici",
+            new_df=os.path.join(dir, 'vegetariani_vegani.csv')
+        )
+  
+    confronto_ristoranti_fastfood(
+            os.path.join(dir, 'tb_Regione_Valore_Note.csv'),
+            os.path.join(dir, 'tb_Regione_Valori_assoluti_Valori_%_Variazione_%_2023_2022.csv'),
+            "grafici",
+            os.path.join(dir, 'ristoranti_fastfood.csv')   
+        )   
+
+    
 
 # l'indicazione successiva ci assicura che la funzione main() venga eseguita solo se il file viene eseguito direttamente
 # e non se viene importato come modulo in un altro file
