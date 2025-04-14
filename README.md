@@ -73,8 +73,8 @@ IN ORDINE DI AUTOREVOLEZZA
    - Rapporto 2024 [FIPE](#https://www.fipe.it/wp-content/uploads/2024/04/Rapporto-Ristorazione-2024.pdf?utm_source=chatgpt.com). La Fipe, Federazione Italiana Pubblici Esercizi, è l'associazione leader nel settore della ristorazione, dell'intrattenimento e del turismo.
    - Dati provenienti da [STATISTA](#https://www.statista.com/). Statista è un sito web tedesco per la statistica, che rende disponibili dati raccolti da istituzioni che si occupano di ricerca, di mercato e di opinioni, così come statistiche riguardanti l'ambito economico e statale. L'azienda afferma che sulla sua piattaforma sono presenti statistiche riguardanti più di 80.000 temi e provenienti da più di 22.500 fonti.
    
-- **Struttura dei Dati**: informazioni suddivise per regione, età, occupazione e altri parametri rilevanti. La dove questa analisi non può essere condotta con questi parametri abbiamo utilizzato i dati Istat per dare un significato ai dati dei report indicati nelle fonti dati.
-Per i dati relativi a fastfood e diete vegane vegetariane 
+- **Struttura dei Dati**: informazioni suddivise per regione, età, occupazione e altri parametri rilevanti. Per le diete veg le fonti sono molto limitate e pertanto è stato analizzato il suo andamento dal 2014 al 2024 (ma abbiamo dati inerenti solo 4 di questi anni). Per i fastfood è stato possibile analizzare solo l'anno 2024
+  
 - **Periodo di Analisi**: ultimi 30 anni per individuare trend significativi. Per quanto riguarda le nuove "mode" non abbiamo una base dati importante e ben strutturata e dobbiamo affidarci ai rapporti annuali che possono essere ritenuti rilevanti ai fini delle analisi solo dagli ultimi 5 anni.
 
 ## Tecnologie Utilizzate
