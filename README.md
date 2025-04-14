@@ -53,7 +53,7 @@ Il progetto mira a utilizzare i report ufficiali provenienti da più [fonti](#ba
       4. Ai fini del progetto ho diviso l'elaborazione python in due file uno che contiene la logica generale "main.py" che ho utilizzato per pulire i dati ed individuare le correlazioni ed uno in cui sarà possibile vedere cosa ogni singola funzione richiamata nel file main faccia esattamente "funzioni.py"
       5. Ora disponiamo di 3 tabelle extra, verificate iniziamo la nostra indagine con python
       6. Con python è stata creata una funzione che permette di farsi un idea generale dei dati che abbiamo inserito nella cartella dati.
-      i file csv infatti vengono associati al rispettivo DB.
+      i file csv infatti vengono associati al rispettivo df.
       Vengono salvati tutti in un dizionario che a sua volta viene passato ad una funzione apposita per darci un idea generale di cosa contengano i file:
       Prime righe del DataFrame, Nomi delle colonne, Informazioni sul DataFrame e Statistiche riassuntive per le colonne numeriche.
       7. Con python sono stati popolate le tabelle "scarne" in modo da poter utilizzare i dati in nostro possesso per avere una panoramica generale dell'andamento delle diete Veg.
